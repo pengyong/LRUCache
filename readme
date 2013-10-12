@@ -1,0 +1,8 @@
+a simple lru implementation
+
+use a double linked list store data;
+the head of list is always the data most recently used,
+and the tail of list is always the data least recently used,
+we update the position of data node in the list when we
+put or get key data;
+use a std::map to find data node based on key.
